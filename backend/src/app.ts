@@ -14,7 +14,7 @@ const app = express()
 // CORS
 app.use(cors({
     origin: [
-        'https://dekorhouse-web.onrender.com',
+        'https://floris-1.onrender.com',
         'http://localhost:3000',
         'http://localhost:5173'
     ],
