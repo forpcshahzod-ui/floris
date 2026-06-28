@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "main": "dist/src/server.js",
-  "scripts": {
+ "scripts": {
     "dev": "nodemon",
-    "build": "tsc",
-    "start": "npm run db:generate && npm run db:push && node dist/src/server.js",
+    "build": "prisma generate && tsc",
+    "start": "prisma db push && node dist/src/server.js",
     "db:generate": "prisma generate",
     "db:push": "prisma db push",
     "db:migrate": "prisma migrate deploy",
