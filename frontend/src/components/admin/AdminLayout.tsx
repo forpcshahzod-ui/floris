@@ -12,15 +12,15 @@ interface AdminLayoutProps {
 }
 
 const menuItems = [
-  { path: '/admin/dashboard',  label: 'Дашборд',       icon: LayoutDashboard },
-  { path: '/admin/products',   label: 'Товары',         icon: Package },
-  { path: '/admin/bulk-tags',  label: 'Массовые теги',  icon: Tags },        // ✅ НОВОЕ
-  { path: '/admin/categories', label: 'Категории',      icon: FolderTree },
-  { path: '/admin/promotions', label: 'Акции',          icon: Tag },
-  { path: '/admin/wholesale',  label: 'Оптовые цены',   icon: Percent },
-  { path: '/admin/orders',     label: 'Заказы',         icon: ShoppingCart },
-  { path: '/admin/customers',  label: 'Клиенты',        icon: Users },
-  { path: '/admin/bito-customers', label: 'Bito клиенты',   icon: UserCircle2 },  // 🆕 импорт из Bito ERP
+  { path: '/admin/dashboard', label: 'Дашборд', icon: LayoutDashboard },
+  { path: '/admin/products', label: 'Товары', icon: Package },
+  { path: '/admin/bulk-tags', label: 'Массовые теги', icon: Tags },        // ✅ НОВОЕ
+  { path: '/admin/categories', label: 'Категории', icon: FolderTree },
+  { path: '/admin/promotions', label: 'Акции', icon: Tag },
+  { path: '/admin/wholesale', label: 'Оптовые цены', icon: Percent },
+  { path: '/admin/orders', label: 'Заказы', icon: ShoppingCart },
+  { path: '/admin/customers', label: 'Клиенты', icon: Users },
+  { path: '/admin/bito-customers', label: 'Bito клиенты', icon: UserCircle2 },  // 🆕 импорт из Bito ERP
   { path: '/admin/bito-employees', label: 'Bito сотрудники', icon: Briefcase },    // 🆕 импорт из Bito ERP
 ]
 
@@ -83,7 +83,7 @@ export function AdminLayout({ children, title }: AdminLayoutProps) {
           <div>
             {/* ✅ Decor Market */}
             <span className="font-display text-xl font-semibold text-forest">
-              Decor<span className="text-sage font-normal"> Market</span>
+              Shahzod<span className="text-sage font-normal"> Market</span>
             </span>
             <p className="text-xs text-medium-gray mt-0.5">Админ-панель</p>
           </div>

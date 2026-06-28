@@ -143,8 +143,8 @@ export function HomePage() {
             className="font-display text-3xl md:text-[44px] font-medium leading-[1.15] mb-3 tracking-[-0.02em]"
           >
             {language === "uz"
-              ? "Bezak va ko'kalamzorlashtirish san'ati"
-              : "Искусство декора и озеленения"}
+              ? "Premium sifatli Gul va Sovg'alar"
+              : "Цветы и подарки премиум-качества"}
           </motion.h1>
 
           <motion.p
@@ -154,8 +154,8 @@ export function HomePage() {
             className="text-[15px] leading-[1.7] opacity-85 mb-6 max-w-[420px]"
           >
             {language === "uz"
-              ? "Premium sun'iy daraxtlar, o'simliklar va gullar. Restoranlar, mehmonxonalar va xususiy uylar uchun."
-              : "Премиальные искусственные деревья, растения и цветы. Проекты под ключ для ресторанов и домов."}
+              ? "Buxoro shahri bo'ylab Gul yetkazib berish xizmati"
+              : "Доставка цветов по городу Бухара"}
           </motion.p>
 
           <motion.div
@@ -430,8 +430,8 @@ export function HomePage() {
           </h3>
           <p className="text-white/80 text-sm mb-5 relative z-[2]">
             {language === "uz"
-              ? "500+ turdagi dekoratsiyalar"
-              : "500+ видов декора"}
+              ? "500+ turdagi gullar"
+              : "500+ видов цветов"}
           </p>
           <div className="relative z-[2] inline-flex items-center gap-2 bg-white text-forest px-6 py-3 rounded-full font-semibold text-sm uppercase tracking-[0.04em]">
             {language === "uz" ? "Katalogni ko'rish" : "Смотреть каталог"}

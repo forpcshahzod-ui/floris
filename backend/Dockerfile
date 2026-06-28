@@ -2,12 +2,15 @@ FROM node:20-alpine
 
 WORKDIR /app
 
+# Устанавливаем OpenSSL для Prisma
+RUN apk add --no-cache openssl
+
 # Копируем package files
 COPY package*.json ./
 COPY prisma ./prisma/
 
 # Устанавливаем ВСЕ зависимости (включая devDependencies для сборки)
-RUN npm ci
+RUN npm install
 
 # Генерируем Prisma Client
 RUN npx prisma generate

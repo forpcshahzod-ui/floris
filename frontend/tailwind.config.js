@@ -9,10 +9,10 @@ export default {
       // ===== ЦВЕТА ИЗ ДИЗАЙН-СИСТЕМЫ =====
       colors: {
         // Green family — основной акцент
-        forest:    '#1B4332',
-        emerald:   '#2D6A4F',
-        sage:      '#40916C',
-        mint:      '#52B788',
+        forest:    '#080908',
+        emerald:   '#000000ff',
+        sage:      '#acb8b2',
+        mint:      '#bb5757',
 
         // Warm neutrals — фоны
         cream:     '#FFFCF5',

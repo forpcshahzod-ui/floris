@@ -158,11 +158,12 @@ export function ProductPage() {
   }
 
   return (
-    <div className="pb-36">
-      {/* ===== Gallery ===== */}
-      <section className="relative bg-sand">
-        <div
-  className="aspect-square relative overflow-hidden"
+    <div className="pb-36 lg:py-8 lg:max-w-6xl lg:mx-auto lg:px-4">
+      <div className="lg:grid lg:grid-cols-2 lg:gap-12 lg:items-start lg:mb-10">
+        {/* ===== Gallery ===== */}
+        <section className="relative bg-sand lg:rounded-3xl lg:overflow-hidden lg:shadow-sm">
+          <div
+            className="aspect-square relative overflow-hidden"
   onTouchStart={(e) => {
     const touch = e.touches[0]
     ;(e.currentTarget as any)._touchStartX = touch.clientX
@@ -267,8 +268,8 @@ export function ProductPage() {
       </section>
 
       {/* ===== Info ===== */}
-      <section className="py-6">
-        <Container className="space-y-6">
+      <section className="py-6 lg:py-0">
+        <Container className="space-y-6 lg:px-0">
           {/* Name & Code */}
           <div>
             <p className="text-sm text-taupe mb-1">
@@ -368,6 +369,7 @@ export function ProductPage() {
           <ProductRecommendations productId={product.id} className="pt-4" />
         </Container>
       </section>
+      </div>
 
       {/* ===== Bottom Bar ===== */}
       <div className="fixed bottom-[70px] left-0 right-0 bg-cream/95 backdrop-blur-[20px] border-t border-stone/50 shadow-soft z-40">

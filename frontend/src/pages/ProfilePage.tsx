@@ -25,27 +25,27 @@ import { cn } from "@/utils/helpers";
 const BRANCHES = [
   {
     id: 1,
-    nameRu: "Филиал Мирзо-Улугбек",
-    nameUz: "Mirzo Ulug'bek filiali",
-    addressRu: "г. Ташкент, Мирзо-Улугбекский район, 7-й проезд Сайрам, 92А",
-    addressUz: "Toshkent sh., Mirzo Ulug'bek tumani, 7-Sayram o'tish, 92A",
-    phone: "+998 (99) 368-11-00",
+    nameRu: "Филиал Бухара",
+    nameUz: "Buxoro filiali",
+    addressRu: "г. Бухара, Мустакиллик 1/1",
+    addressUz: "Buxoro sh., Mustaqillik 1/1",
+    phone: "+998 (88) 504-48-88",
     hours: "09:00 – 18:00",
     daysRu: "Пн–Сб",
     daysUz: "Du–Sha",
-    mapUrl: "https://yandex.uz/maps/-/CHfaBJ",
+    mapUrl: "https://yandex.uz/maps",
   },
   {
     id: 2,
-    nameRu: "Филиал Юнусабад",
-    nameUz: "Yunusobod filiali",
-    addressRu: "г. Ташкент, Юнусабадский район, Малая кольцевая дорога, 106",
-    addressUz: "Toshkent sh., Yunusobod tumani, Kichik halqa yo'li, 106",
-    phone: "+998 (99) 368-11-00",
+    nameRu: "Филиал Бухара",
+    nameUz: "Buxoro filiali",
+    addressRu: "г. Бухара",
+    addressUz: "Buxoro sh.,",
+    phone: "+998 (88) 504-48-88",
     hours: "09:00 – 18:00",
     daysRu: "Пн–Сб",
     daysUz: "Du–Sha",
-    mapUrl: "https://yandex.uz/maps/-/CHfaBJ",
+    mapUrl: "https://yandex.uz/maps",
   },
 ];
 
@@ -91,7 +91,7 @@ export function ProfilePage() {
     {
       icon: MessageCircle,
       label: language === "uz" ? "Bog'lanish" : "Связаться",
-      onClick: () => window.open("https://t.me/DekorHouseAdmin", "_blank"),
+      onClick: () => window.open("https://t.me/khaydarov65", "_blank"),
     },
   ];
 
@@ -159,7 +159,7 @@ export function ProfilePage() {
           <div className="text-center">
             {/* ✅ CHANGED: Decor Market */}
             <span className="font-display text-lg text-forest font-semibold">
-              Decor<span className="text-sage font-normal"> Market</span>
+              Floris<span className="text-sage font-normal"> Market</span>
             </span>
             <p className="text-xs text-taupe mt-1">v1.0.0</p>
           </div>
@@ -253,19 +253,19 @@ export function ProfilePage() {
               <p>
                 Telegram:{" "}
                 <a
-                  href="https://t.me/DekorHouseAdmin"
+                  href="https://t.me/khaydarov65"
                   className="text-forest font-semibold"
                 >
-                  @DekorHouseAdmin
+                  @khaydarov65
                 </a>
               </p>
               <p>
                 {language === "uz" ? "Telefon" : "Телефон"}:{" "}
                 <a
-                  href="tel:+998993681100"
+                  href="tel:+998885044888"
                   className="text-forest font-semibold"
                 >
-                  +998 (99) 368-11-00
+                  +998 (88) 504-48-88
                 </a>
               </p>
             </div>

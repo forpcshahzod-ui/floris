@@ -9,6 +9,8 @@ preloadPromotions().catch(() => {
     // Silently fail
 })
 
+
+// Force reload trigger
 ReactDOM.createRoot(document.getElementById('root')!).render(
     <React.StrictMode>
         <App />

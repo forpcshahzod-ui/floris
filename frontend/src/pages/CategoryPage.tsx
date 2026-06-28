@@ -13,7 +13,7 @@ import { Skeleton } from "@/components/ui/Skeleton";
 import { getCategoryName } from "@/utils/helpers";
 import toast from "react-hot-toast";
 
-const BOT_USERNAME = import.meta.env.VITE_BOT_USERNAME || "DecorMarketUz_Bot";
+const BOT_USERNAME = import.meta.env.VITE_BOT_USERNAME || "ai_bronbot";
 
 export function CategoryPage() {
   const { slug } = useParams<{ slug: string }>();
@@ -64,8 +64,8 @@ function CategoryHeader({
     const directAppUrl = `https://t.me/${BOT_USERNAME}/app?startapp=category_${slug}`;
     const shareText =
       language === "uz"
-        ? `${categoryName} — Decor Market do'konida ko'ring!`
-        : `${categoryName} — смотрите в Decor Market!`;
+        ? `${categoryName} — floris do'konida ko'ring!`
+        : `${categoryName} — смотрите в Floris!`;
 
     try {
       const tgShareUrl = `https://t.me/share/url?url=${encodeURIComponent(directAppUrl)}&text=${encodeURIComponent(shareText)}`;

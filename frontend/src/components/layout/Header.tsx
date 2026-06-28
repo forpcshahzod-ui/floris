@@ -4,8 +4,9 @@ import { Search, ChevronLeft, MessageCircle } from "lucide-react";
 import { useState, useEffect } from "react";
 import { useLanguageStore } from "@/store/languageStore";
 import WebApp from "@twa-dev/sdk";
+import { button } from "framer-motion/client";
 
-const ADMIN_USERNAME = "DekorHouseAdmin"; // без @
+const ADMIN_USERNAME = "khaydarov65"; // без @
 
 export function Header() {
   const navigate = useNavigate();
@@ -53,7 +54,7 @@ const handleContactAdmin = () => {
             type: "default",
             text:
               language === "uz"
-                ? "💬 Admin bilan yozishmak"
+                ? "💬 Adminga yozish"
                 : "💬 Написать администратору",
           },
           {
@@ -125,7 +126,7 @@ const handleContactAdmin = () => {
               onClick={() => navigate("/")}
               className="font-display text-[22px] font-semibold text-forest tracking-[-0.01em] cursor-pointer select-none"
             >
-              Decor<span className="text-sage font-normal"> Market</span>
+              Floris<span className="text-sage font-normal"> Market</span>
             </span>
           </motion.div>
         ) : pageTitle ? (
