@@ -1,8 +1,7 @@
 import { createClient } from '@supabase/supabase-js'
 
 const supabaseUrl = 'https://zvyccgublfdnqijkmffx.supabase.co'
-const supabaseAnonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inp2eWNjZ3VibGZkbnFpamttZmZ4Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4MjU4MjA3NiwiZXhwIjoyMDk4MTU4MDc2fQ.-AeATr5Q2rPuQNs0c5NLzceAQdwL8vEus9pLNtHPpOQ'  // Найдите в Supabase Dashboard → Settings → API
-
+const supabaseAnonKey = 'sb_publishable_MicBwoYE0UsGutTqM_dwxw_-K-4GQAW' 
 export const supabase = createClient(supabaseUrl, supabaseAnonKey)
 
 export async function uploadImage(file: File, folder: string = 'products'): Promise<string | null> {
