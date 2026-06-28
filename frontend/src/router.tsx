@@ -287,7 +287,7 @@ function AdminRoutes() {
 
 export function AppRouter() {
   const location = useLocation();
-  const isAdminRoute = location.pathname.startsWith("/noadmin");
+  const isAdminRoute = location.pathname.startsWith("/admin");
   if (isAdminRoute) return <AdminRoutes />;
   return <MainRoutes />;
 }
