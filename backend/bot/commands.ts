@@ -5,11 +5,10 @@ import { prisma } from '../src/config/database'
 
 // Приветствие (шаг 1) — двуязычное, без выбора языка
 const WELCOME_TEXT = `
+🌸 *FLORIS Market botiga xush kelibsiz!*
+🇺🇿 BUXOROdagi eng katta gul va dekor do'koni.
 
-FLORIS Market botiga xush kelibsiz!*
-🇺🇿 BUXOROdagi eng katta gul do'koni
-
-🛍 Katalogimizda — 
+🛍 Katalogimizda — sun'iy va tirik gullar, buketlar, dekorativ daraxtlar hamda barcha turdagi sovg'alar.
 
 📞 Aloqa: +998 88 504 48 88
 💬 Admin: @khaydarov65
