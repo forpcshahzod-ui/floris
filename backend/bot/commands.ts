@@ -6,8 +6,6 @@ import { prisma } from '../src/config/database'
 // Приветствие (шаг 1) — двуязычное, без выбора языка
 const WELCOME_TEXT = `
 
-━━━━━━━━━━━━━━━━━━━━
-
 FLORIS Market botiga xush kelibsiz!*
 🇺🇿 BUXOROdagi eng katta gul do'koni
 
