@@ -9,9 +9,9 @@ const WELCOME_TEXT = `
 ━━━━━━━━━━━━━━━━━━━━
 
 FLORIS Market botiga xush kelibsiz!*
-🇺🇿 O'zbekistondagi birinchi uy va ofis uchun dekor do'koni.
+🇺🇿 BUXOROdagi eng katta gul do'koni
 
-🛍 Katalogimizda — sun'iy o'simliklar, premium kashpolar, dekorativ daraxtlar, mox panellar, kompozitsiyalar va qulaylik uchun barcha narsalar.
+🛍 Katalogimizda — 
 
 📞 Aloqa: +998 88 504 48 88
 💬 Admin: @khaydarov65
