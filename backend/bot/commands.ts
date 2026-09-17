@@ -5,23 +5,16 @@ import { prisma } from '../src/config/database'
 
 // Приветствие (шаг 1) — двуязычное, без выбора языка
 const WELCOME_TEXT = `
-🌿 *Добро пожаловать в Dekor Market!*
-🇺🇿 Первый в Узбекистане магазин декора для дома и офиса.
-
-🛍 В нашем каталоге — искусственные растения, премиальные кашпо, декоративные деревья, мох-панели, композиции и всё для уюта вашего пространства.
-
-📞 Контакты: +998 99 368-11-00
-💬 Админ: @DekorHouseAdmin
 
 ━━━━━━━━━━━━━━━━━━━━
 
-🌿 *Dekor Market botiga xush kelibsiz!*
+FLORIS Market botiga xush kelibsiz!*
 🇺🇿 O'zbekistondagi birinchi uy va ofis uchun dekor do'koni.
 
 🛍 Katalogimizda — sun'iy o'simliklar, premium kashpolar, dekorativ daraxtlar, mox panellar, kompozitsiyalar va qulaylik uchun barcha narsalar.
 
-📞 Aloqa: +998 99 368-11-00
-💬 Admin: @DekorHouseAdmin
+📞 Aloqa: +998 88 504 48 88
+💬 Admin: @khaydarov65
 `.trim()
 
 // Вопрос о языке (шаг 2)
@@ -119,11 +112,11 @@ export async function handleHelp(
 4. Buyurtmani rasmiylang / Оформите заказ
 
 📞 *Bog'lanish / Контакты:*
-Telegram: @DekorHouseAdmin
-Telefon: +998 (99) 368-11-00
+Telegram: @Khaydarov65
+Telefon: +998 (88) 504 48 88
 
 🕐 *Ish vaqti / Режим работы:*
-Dushanba - Shanba / Пн - Сб: 9:00 - 18:00
+Dushanba - Shanba / Пн - Сб: 9:00 - 22:00
 `.trim()
 
   const isHttps = config.frontendUrl.startsWith('https://')
